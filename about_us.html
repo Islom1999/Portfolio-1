@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/col.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portfolio About</title>
+</head>
+<body>
+    <nav class="nav-left">
+        <div class="nav-left">
+            <div class="toggle-menu">
+                Toggle menu
+                <span class="menu__bar"></span>
+                <span class="menu__bar"></span>
+                <span class="menu__bar"></span>
+            </div>
+    
+            <ul>
+                <li><img src="imgs/garden41.png" alt=""></li>
+                <li><a href="index.html">Home</a></li><hr>
+                <li><a class="active" href="#">About us</a></li><hr>
+                <li><a href="portfolio.html">Portfolio</a></li><hr>
+                <li><a href="services.html">Services</a></li><hr>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="btn">Buy Now</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="nav-right">
+        <div class="nav-right">
+            <li><img src="imgs/garden41.png" alt=""></li>
+            <div>
+                <div class="toggle-menu-right">
+                    Toggle menu
+                    <span class="menu__bar"></span>
+                    <span class="menu__bar"></span>
+                    <span class="menu__bar"></span>
+                </div>
+                <li><button class="btn">Buy Now</button></li>
+            </div>
+            
+        </div>
+    </nav>
+
+    <ul class="nav-ul-right">
+        <li><button class="btn">Buy Now</button></li>
+        <li><a href="index.html">Home</a></li><hr>
+        <li><a  class="active"  href="#">About us</a></li><hr>
+        <li><a href="portfolio.html">Portfolio</a></li><hr>
+        <li><a href="services.html">Services</a></li><hr>
+        <li><a href="contact.html">Contact</a></li>
+
+        <svg class='close-right' aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+        
+    </ul>
+    
+    <div class="body-right">
+        <div class="scroll-indicator"></div>
+        <script>
+            let scrollContent = document.querySelector('.scroll-indicator');
+                window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / (document.body.scrollHeight - window.innerHeight))*100;
+                scrollContent.style.height = progressHeight + '%';
+            }
+        </script>
+
+        
+
+       <header class="about-header">
+           <div class="container">
+            <h1>About us</h1>
+           </div>
+       </header>
+
+       <section class="section-text">
+           <div class="container">
+               <h2>Mauris rhoncus orci in imperdiet placerat vestibulum</h2>
+               <div class="parent">
+                   <div class="col-6 col-sm-12">
+                       <p>Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla imperdiet id ac magna. Suspendisse vel.</p>
+
+                       <p>Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt ut eros a, vulputate consequat odio. Vestibulum vehicula tempor nulla, sed hendrerit urna interdum in. Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus commodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper.</p>
+                   </div>
+                   <div class="col-6 col-sm-12">
+                       <p>Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla imperdiet id ac magna. Suspendisse vel facilisis odio, at ornare nibh. In malesuada, tortor.</p>
+                       <h3>Mauris rhoncus orci in imperdiet placerat.</h3>
+                       <p class="p">— Duis dignissim mi ut mollis.</p>
+                       <p class="p">— Nunc id tellus finibus eleifend maximus justo.</p>
+                       <p class="p">— Maecenas mi tortor</p>
+                       <button class="btn">contact us</button>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section class="section-grid page-2">
+           <div class="container">
+                <div class="grid-parent">
+                   <div class="grid-item top-center">
+                       <h2>Claudia</h2>
+                       <h3>CO-FOUNDER</h3>
+                       <p>Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel. Pellentesque.</p>
+                       <div class="icon">
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-facebook' ></i>
+                            <i class='bx bxl-skype'></i>
+                       </div>
+                   </div>
+                   <div class="grid-item">
+                       <img src="imgs/garden4_pic4.jpg" alt="">
+                   </div>
+                </div>
+                <div class="grid-parent">
+                <div class="grid-item">
+                    <img src="imgs/garden4_pic33.jpg" alt="">
+                </div>
+                    <div class="grid-item">
+                        <h2>Michael</h2>
+                        <h3>GARDENER</h3>
+                        <p>Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel. Pellentesque.</p>
+                        <div class="icon">
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-facebook' ></i>
+                            <i class='bx bxl-skype'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-parent">
+                    <div class="grid-item">
+                        <h2>Kate</h2>
+                        <h3>GARDENER</h3>
+                        <p>Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel. Pellentesque.</p>
+                        <div class="icon">
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-facebook' ></i>
+                            <i class='bx bxl-skype'></i>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="imgs/garden4_pic34.jpg" alt="">
+                    </div>
+                </div>
+       </section>
+       <div class="clr"></div>
+
+        <section class="section-bg">
+            <div class="container">
+                <div class="parent section-bg-pos">
+                    <div class="col-6 col-sm-12">
+                        <img src="imgs/garden4_pic14.png" alt="">
+                        <h2>We have 20 years of experience</h2>
+                    </div>
+                    <div class="col-6 col-sm-12">
+                        <p>Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clr"></div>
+
+        <section class="section-icons-services">
+            <div class="container">
+                <h1>Check our range of services</h1>
+                 <div class="parent">
+                    <div class="col-xxl-2 col-md-6">
+                        <img src="imgs/garden4_pic5.png" alt="">
+                        <h3>PORTTITOR RISUS</h3>
+                    </div>
+                    <div class="col-xxl-2 col-lg-6 col-sm-12">
+                        <img src="imgs/garden4_pic6.png" alt="">
+                        <h3>ACCUMSAN CONGUE</h3>
+                    </div>
+                    <div class="col-xxl-2 col-lg-6 col-sm-12">
+                        <img src="imgs/garden4_pic8.png" alt="">
+                        <h3>MAECENAS MALESUADA ELIT LECTUS FELIS</h3>
+                    </div>
+                    <div class="col-xxl-2 col-lg-6 col-sm-12">
+                        <img src="imgs/garden4_pic7.png" alt="">
+                        <h3>LOREM IPSUM PRIMIS IN NIBH VEL RISUS</h3>
+                    </div>
+                    <div class="col-xxl-2 col-lg-6 col-sm-12">
+                        <img src="imgs/garden4_pic9.png" alt="">
+                        <h3>INTEGER ULTRICES POSUERE CUBILIA CURAE</h3>
+                    </div>
+                </div>
+                <button class="btn">read more</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="parent">
+                    <div class="col-3 col-md-6 col-lg-6 col-sm-12">
+                        <img src="imgs/garden4_pic27.png" alt="">
+                        <p class="text-dark"> Level 13, 2 Elizabeth St, <br> Melbourne, Victoria 3000, <br> Australia</p>
+                    </div>
+                    <div class="col-3  col-md-6 col-lg-6 col-sm-12">
+                        <p class="text-dark">Monday — Saturday: 8AM — 4PM</p>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-facebook' ></i>
+                        <i class='bx bxl-skype'></i>
+                    </div>
+                    <div class="col-3  col-md-6 col-lg-6 col-sm-12">
+                        <h3>Molestie tortor</h3>
+                        <p class="text-dark">Fusce ut velit laoreet, tempus arcu eu, molestie tortor.</p>
+                        <p><span style="color: #bcba62; margin-right: 10px;">→</span> Praesent pretium</p>
+                        <p><span style="color: #bcba62; margin-right: 15px;">→</span>Pellentesque</p>
+                    </div>
+                    <div class="col-3  col-md-6 col-lg-6 col-sm-12">
+                        <h3>Have a question? <br> Keep in touch</h3>
+                        <p><i class='bx bxs-phone'></i> +61 (0) 383 766 284</p>
+                        <p><i class='bx bx-envelope'></i> noreply@envato.com</p>
+                    </div>
+                </div>
+                <p class="footer-p-bottom text-dark">© 2021 Betheme by Muffin group | All Rights Reserved | Powered by WordPress <a href="#"><i class='bx bxs-chevron-left'></i></a>
+                </p>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="js/"></script>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
